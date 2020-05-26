@@ -41,6 +41,10 @@ metadata:
   short title: |
     HSC NDIS
   show login: True
+  subquestion: |
+    Zachery Radermacher
+    Kimberly Tze Wey Wong
+    Brayden Howard
 ---
 objects:
   - KWlogo: DAStaticFile.using(filename='hutt-st-centre-logo.svg')
@@ -152,4 +156,16 @@ code: |
 event: part 6
 code: |
   force_ask('D6_1')
+---
+default screen parts:
+  post: |
+  <div style="display: flex; height: 200px; align-items: flex-end; flex-direction: row reverse">
+  <div style="margain: 5px"><img src="https://flinders.edu.au/etc.clientlibs/flinders/clientlibs/clientlib-site/resources/images/flindersuni_main_logo_black.png" height="40">
+  </div>
+  <div style="margin: 5px; text-align: center">
+  <cite><small><i>
+  Developed by Flinders University in collaboration with The Hutt Street Centre
+  </i></small></cite>
+  <div>
+  <div>
 ---
